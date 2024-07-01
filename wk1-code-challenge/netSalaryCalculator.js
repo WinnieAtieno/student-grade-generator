@@ -49,7 +49,7 @@ function netSalaryCalculator(basicSalary, benefits) {
     //const HOUSING_LEVY_RATE = 0.015;
 
     // Validate input
-    if (isNaN(basicSalary) || isNaN(benefits) || basicSalary < 0 || benefits < 0) {
+    if (isNaN(basicSalary) || isNaN(benefits) || basicSalary < 20000 || benefits < 0) {
         throw new Error('Invalid input. Salary and benefits must be valid positive numbers.');
     }
 

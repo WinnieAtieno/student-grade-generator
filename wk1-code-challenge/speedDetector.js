@@ -37,10 +37,8 @@ getSpeed()  //Subsequent event handlanders
         if(demeritPoints > 12){
             return `“License suspended”`
         }
-        else{
-            return demeritPoints
-        }
-        
+     
+        return `Your current demerit point is ${demeritPoints} points  above 12 might lead to your licence be suspended.`
     }
     
 })
